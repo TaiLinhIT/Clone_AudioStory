@@ -78,7 +78,7 @@
 
                         </button>
                         <div class="text-justify ">
-                            <a href="" class="text-lg font-bold text-[#4b5563]">[Chương 69] - Sinh cục cưng cho bạo quân phản diện rồi phải làm sao đây?</a>
+                            <a href=""  class="text-lg font-bold text-[#4b5563]">[Chương 69] - Sinh cục cưng cho bạo quân phản diện rồi phải làm sao đây?</a>
                             <p>Cô nương kia chính là Thái Tử phi - Quận chúa Chiêu Vân.</p>
                             <p>Sau khi cưới hơn nửa tháng, Quận chúa Chiêu Vân vẫn luôn ở lại phủ Công chúa không</p>
                             <p>chịu lộ mặt. Trưởng công chúa cũng không hề hối thú...</p>

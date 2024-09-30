@@ -4,9 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\StoryController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -20,9 +18,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
 });
-Route::get('/index',[StoryController::class,'index'])->name('story');
+Route::get('/',[StoryController::class,'index'])->name('story');
 Route::get('/playstory',[StoryController::class,'playStory'])->name('playstory');
-Route::get('/list-story/{id}',[StoryController::class,'showListStory'])->name('liststory');
+Route::get('/list-story',[StoryController::class,'showListStory'])->name('liststory');
 Route::get('/gameLink',[StoryController::class,'gameLink'])->name('gamelink');
 
 require __DIR__.'/auth.php';
